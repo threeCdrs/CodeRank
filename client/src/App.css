@@ -1,0 +1,29 @@
+/* Apply CSS reset or normalize styles */
+@import 'normalize.css';
+
+/* Responsive Styles */
+@media (min-width: 640px) {
+  /* Small devices (mobile phones) */
+  /* Example: Increase font size for better readability on small screens */
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Medium devices (tablets) */
+  /* Example: Adjust padding for better spacing on medium screens */
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Large devices (laptops/desktops) */
+  /* Example: Increase maximum width for better layout on larger screens */
+  .container {
+    max-width: 1400px;
+  }
+}
+
+
